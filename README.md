@@ -12,7 +12,9 @@ After the plugin is installed, it can be called via the REST API.
 The syntax is as follow:
 
 POST $ARTIFACTORY_URL/api/plugins/execute/runSQL
+
 BODY:
+
 ```
 {
 	"sql": "<SELECT STATEMENT HERE>"
